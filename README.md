@@ -28,3 +28,4 @@ and contribute here:<br />https://github.com/ReactExtensionManager/ReactExtensio
 ## Release History
 
 * 0.1.0 Initial Release
+* 0.1.1 Added rem.sh script
