@@ -23,4 +23,4 @@ and contribute here:<br />https://github.com/ReactExtensionManager/ReactExtensio
 
 ## Release History
 
-* 0.1.0 Initial release
+* 0.1.0 Initial Release
