@@ -29,3 +29,4 @@ and contribute here:<br />https://github.com/ReactExtensionManager/ReactExtensio
 
 * 0.1.0 Initial Release
 * 0.1.1 Added rem.sh script
+* 0.1.3 Allows for custom React Native Path
