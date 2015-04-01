@@ -1,0 +1,11 @@
+{
+  "name": "react-native-vibration",
+  "version": "0.1.0",
+  "summary": "The React Native Module for Vibration",
+  "license": "BSD",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "ios/**/*.{h,m}"
+}
