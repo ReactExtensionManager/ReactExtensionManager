@@ -4,7 +4,7 @@ REM Example Instructions
 To start using REM it is easiest to use the example directory provided below.
 **REM is still in its infancy. Things will most likely change!**
 
-*Instructions*:
+*Instructions*:<br />
 1. Inside the root of the react extension manager source folder <pre>sudo npm link</pre> <br />
 2. Go inside the example project and run <pre>npm install</pre> This will install react native for your server <br />
 3. Run the new command <pre>rem init</pre> This will install all of your npm modules that are react extensions and React for your XCode project. <br />
