@@ -1,0 +1,9 @@
+{
+  "name": "react-native-text",
+  "version": "1.0.0",
+  "description": "iOS React Native Text Module",
+  "main": "Text.js",
+  "react-native-module": {
+    "podfile": "react-native-text.podspec"
+  }
+}
