@@ -1,9 +1,0 @@
-{
-  "name": "react-native-vibration",
-  "version": "1.0.0",
-  "description": "iOS React Native Vibration Module",
-  "main": "index.js",
-  "react-native-module": {
-    "podfile": "ios/react-native-vibration.podspec"
-  }
-}
