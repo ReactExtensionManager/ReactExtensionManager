@@ -12,6 +12,8 @@ npm install react-extension-manager
 
 ## Usage
 
+When stable is hit, REM will support using rem command from bin globally.
+
 At this point in time, we do not recommend making the module global and adding the script to your path as it is still in the works. Run the script using <pre>./node_modules/react-extension-manager/rem.sh</pre>
 
 To use rem, init a project with a podfile and React Native extensions using <pre>rem (./rem.sh) init</pre>
