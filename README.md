@@ -5,3 +5,7 @@ React Extension Manager (or REM) is a package manager for third-party React Nati
 
 To use rem, init a project with a podfile and React Native extensions using <pre>rem init</pre>
 If you add new React Native extensions at a later time, update the project using <pre>rem install</pre>
+
+**REM is still in alpha.**<br />
+We would love for you to submit bugs here: https://github.com/ReactExtensionManager/ReactExtensionManager/issues<br />
+and contribute here: https://github.com/ReactExtensionManager/ReactExtensionManager
