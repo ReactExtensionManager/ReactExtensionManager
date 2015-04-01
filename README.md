@@ -6,7 +6,9 @@ React Extension Manager (or REM) is a package manager for third-party React Nati
 
 ## Installation
 
-Will be added shortly
+<pre>
+npm install git://github.com/ReactExtensionManager/ReactExtensionManager.git -g
+</pre>
 
 ## Usage
 
