@@ -3,15 +3,14 @@
   "version": "0.1.0",
   "description": "A package manager for React Native modules",
   "scripts": {
-    "test": "jest",
-    "build": "build.sh"
+    "test": "jest"
   },
   "bin": {
     "rem": "src/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/react-native.git"
+    "url": "https://github.com/ReactExtensionManager/ReactExtensionManager.git"
   },
   "keywords": [
     "package",
@@ -24,9 +23,9 @@
   "author": "",
   "license": "BSD",
   "bugs": {
-    "url": "https://github.com/facebook/react-native/issues"
+    "url": "https://github.com/ReactExtensionManager/ReactExtensionManager/issues"
   },
-  "homepage": "https://github.com/facebook/react-native",
+  "homepage": "https://github.com/ReactExtensionManager/ReactExtensionManager",
   "devDependencies": {
     "execSync": "^1.0.2",
     "jest-cli": "^0.4.0"
