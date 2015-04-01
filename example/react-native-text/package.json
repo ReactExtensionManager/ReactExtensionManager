@@ -4,6 +4,6 @@
   "description": "iOS React Native Text Module",
   "main": "Text.js",
   "react-native-module": {
-    "podfile": "ios/react-native-text.podspec"
+    "podfile": "react-native-text.podspec"
   }
 }

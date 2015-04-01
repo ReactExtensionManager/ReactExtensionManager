@@ -7,6 +7,7 @@
 'use strict';
 
 var initialize = require("./init.js");
+var project = require("./install/project.js");
 var fs = require('fs');
 var sys = require('sys');
 var cp = require('child_process');
@@ -55,40 +56,18 @@ module.exports = {
 
           if (isDirectory) {
             // File is directory try to read package.json
-            var filePackage = "./node_modules/" + file + "/package.json";
-            var packageText;
-            try {
-              packageText = fs.readFileSync(filePackage, 'utf8');
-            } catch (err) {
-              throw err;
-            }
-
-            // Try to parse file as json
-            var packageJSON = JSON.parse(packageText);
+            var filePath = "./node_modules/" + file;
+            var reactProject = new project.Project(filePath);
 
             // check to see if this is a React Native Module
-            if (packageJSON["react-native-module"] != null) {
+            if (reactProject.isReactNativeProject) {
               // File is a React Native Module
               console.log("React Native Module Found: " + file);
 
-              // Try to get Podfile Path
-              var podfilePath = packageJSON["react-native-module"]["podfile"];
-              if (podfilePath != null) {
-                if (podfile.indexOf(file) != -1) {
-                  console.log(file + " is already included as a dependency.\n");
-                } else {
-                  var newDependency = "pod '" + file + "', :path => 'node_modules/" + file + "/'\n";
-                  try {
-                    fs.appendFileSync('./REM-Podfile', newDependency);
-                  } catch(err) {
-                    throw err;
-                  }
+              // Try to install Pod
+              reactProject.install();
 
-                  console.log("Added dependency: " + file);
-                }
-              } else {
-                throw new Error("podfile path is required for node module: " + file);
-              }
+              // Check to see if
             }
           }
         }

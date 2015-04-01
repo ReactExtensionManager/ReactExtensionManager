@@ -7,58 +7,58 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		1BD1281A056F07662C4CC293 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1881787B8D949E0BD659E2F5 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		20BB0D19B7230700A6E71D4F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2838C5C73F97A53DB7D1D351 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		91B3E6C3C5D6FA6220086503 = {
-			isa = PBXGroup;
-			children = (
-				1BD1281A056F07662C4CC293 /* Podfile */,
-				20BB0D19B7230700A6E71D4F /* Frameworks */,
-				B22F527F3C3E19983A330A70 /* Products */,
-				2838C5C73F97A53DB7D1D351 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		B22F527F3C3E19983A330A70 /* Products */ = {
+		1E44C2042801C73072400328 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+		2DC54CEA761FC152C1C73E11 = {
+			isa = PBXGroup;
+			children = (
+				1881787B8D949E0BD659E2F5 /* Podfile */,
+				32F5090011A112B424F09197 /* Frameworks */,
+				1E44C2042801C73072400328 /* Products */,
+				7DE89D3D33F34281855315BD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		32F5090011A112B424F09197 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DE89D3D33F34281855315BD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXProject section */
-		476A1DBE4DB50E21906B6526 /* Project object */ = {
+		83983368C713C82011EB91E3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 25830590F4CAD87B869D3084 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 0C96152F1EE99D70E3587DFE /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 91B3E6C3C5D6FA6220086503;
-			productRefGroup = B22F527F3C3E19983A330A70 /* Products */;
+			mainGroup = 2DC54CEA761FC152C1C73E11;
+			productRefGroup = 1E44C2042801C73072400328 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -67,7 +67,7 @@
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		18B57F3E05E65719948E6F58 /* Debug */ = {
+		846C83F2E7F3B30B8A796F35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -106,7 +106,7 @@
 			};
 			name = Debug;
 		};
-		2F991C8BD09F9CA626E56E0F /* Release */ = {
+		EEED88FDA88E4375C7500E97 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -143,16 +143,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		25830590F4CAD87B869D3084 /* Build configuration list for PBXProject "Pods" */ = {
+		0C96152F1EE99D70E3587DFE /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18B57F3E05E65719948E6F58 /* Debug */,
-				2F991C8BD09F9CA626E56E0F /* Release */,
+				846C83F2E7F3B30B8A796F35 /* Debug */,
+				EEED88FDA88E4375C7500E97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 476A1DBE4DB50E21906B6526 /* Project object */;
+	rootObject = 83983368C713C82011EB91E3 /* Project object */;
 }
